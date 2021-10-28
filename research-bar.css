@@ -1,0 +1,21 @@
+research-bar
+
+.ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #F3F2F2;
+}
+
+.li {
+	float: left;
+}
+
+.li a {
+	display: block;
+	color: #D3A877;
+	text-align: center;
+	padding: 14 px 16px;
+	text-decoration: none;
+}
