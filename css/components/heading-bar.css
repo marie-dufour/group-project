@@ -1,0 +1,34 @@
+/* heading-bar */
+
+.heading-bar{
+	width: 100%;
+}
+
+.heading-bar img{
+	width: 100px;
+	margin: ;
+}
+
+.heading-bar h1{
+
+}
+
+.heading-bar a{
+	size: ;
+	right: 10px;
+	vertical-align: px;
+
+}
+
+@media (max-width: 760px) {
+	.heading-bar img {
+		width: 50px; 
+	}
+	.heading-bar h1
+}
+
+@media (max-width: 500px) {
+	.img {
+		width: 25px; 
+	}
+}

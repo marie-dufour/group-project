@@ -1,21 +1,23 @@
-research-bar
+/* research-bar */
 
-.ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #F3F2F2;
-}
+	ul-nav{
+  	list-style-type: none;
+  	margin: 0;
+  	padding: 0;
+  	overflow: hidden;
+  	background-color: #F3F2F2;
+  	position: absolute;
+  	left : 300px;
+	}
 
-.li {
+	li{
 	float: left;
-}
+	}
 
-.li a {
-	display: block;
-	color: #D3A877;
-	text-align: center;
-	padding: 14 px 16px;
-	text-decoration: none;
-}
+	li a {
+ 	display: block;
+  	color: #D3A877;
+ 	text-align: center;
+  	padding: 14px 16px;
+  	text-decoration: none;
+	}
