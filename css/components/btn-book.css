@@ -1,0 +1,11 @@
+/* btn-book */
+
+.btn-book{
+	background-color: #D3A877;
+	color: white;
+	padding: 20px 60px;
+	border-radius: 4px;
+	left: 930px;
+	top: 1000px;
+	position: absolute;
+}

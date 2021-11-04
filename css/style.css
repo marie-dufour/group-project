@@ -8,8 +8,9 @@
 @import url("components/list-inline.css");
 @import url("components/logo-circle.css");
 @import url("components/polaroid.css");
-@import url("components/profiles-pictures.css");
 @import url("components/research-bar.css");
+@import url("components/card-white.css");
+@import url("components/btn-book.css");
 
 
 body {
@@ -55,15 +56,6 @@ h4 {
     font-size: 14px;
 }
 
-h5 {
-	color: #2F7B8B;
-	font-family: 'Brawler';
-    font-weight: lighter;
-    font-size: 22px;
-    text-align: center;
-    margin: 60px;
-}
-
 a{
 	text-decoration: none;
 	color: #D3A877;
@@ -94,3 +86,5 @@ input{
 		width: 400px; 
 	}
 }
+
+
