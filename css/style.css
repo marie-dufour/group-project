@@ -16,8 +16,9 @@
 @import url("components/profiles-pictures.css");
 @import url("components/research-bar.css");
 @import url("components/card-blog.css");
-@import url("components/btn-gris-blog.css");
 @import url("components/pictures-blog.css");
+@import url("components/list-horizontal-profile.css");
+@import url("components/bar.css");
 
 
 body {
@@ -48,7 +49,7 @@ h2 {
     font-family: 'Brawler';
     font-weight: lighter;
     font-size: 28px;
-    margin-left: 20px;
+    margin-left: 60px;
 }
 
 h3 {
@@ -87,13 +88,13 @@ input{
 	top: 30px; left: 1300px;
 }
 
-.blog {
+.login {
 	color: #FFFFFF;
 	position: absolute;
-	top: 30px; left: 1230px;
+	top: 30px; left: 1220px;
 }
 
-.login {
+.blog {
 	color: #FFFFFF;
 	position: absolute;
 	top: 30px; left: 1140px;
@@ -120,14 +121,4 @@ input{
 	.try {
 		width: 400px;
 	}
-}
-
-.try{
-	display: flex;
-	justify-content: space-between;
-	padding-left: 30px;
-	align-items: center;
-	width: 60%;
-	margin: 0px auto;
-	background-color: #F3F2F2;
 }

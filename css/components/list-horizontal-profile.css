@@ -1,0 +1,11 @@
+/* list-horizontal-profile */
+
+.list-horizontal-profile{
+	list-style: none;
+	padding-left: 90px;
+}
+
+.list-horizontal-profile li{
+	display: inline;
+	padding: 15px;
+}
