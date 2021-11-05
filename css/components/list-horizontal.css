@@ -2,10 +2,10 @@
 
 .list-horizontal{
 	list-style: none;
-	padding-left: 0px;
+	padding-left: 70px;
 }
 
 .list-horizontal li{
 	display: inline;
-	padding: 60px;
+	padding: 20px;
 }

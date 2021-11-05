@@ -15,6 +15,9 @@
 @import url("components/polaroid.css");
 @import url("components/profiles-pictures.css");
 @import url("components/research-bar.css");
+@import url("components/card-blog.css");
+@import url("components/btn-gris-blog.css");
+@import url("components/pictures-blog.css");
 
 
 body {
@@ -45,7 +48,7 @@ h2 {
     font-family: 'Brawler';
     font-weight: lighter;
     font-size: 28px;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 h3 {
@@ -84,13 +87,29 @@ input{
 	top: 30px; left: 1300px;
 }
 
-.container{
+.blog {
+	color: #FFFFFF;
+	position: absolute;
+	top: 30px; left: 1230px;
+}
 
+.login {
+	color: #FFFFFF;
+	position: absolute;
+	top: 30px; left: 1140px;
+}
+
+.container{
+	width: 1200px;
+	margin: 0px auto;
 }
 
 @media (max-width: 760px) {
 	.container {
 		width: 600px; 
+	}
+	.try {
+		width: 400px;
 	}
 }
 
@@ -98,4 +117,17 @@ input{
 	.container {
 		width: 400px; 
 	}
+	.try {
+		width: 400px;
+	}
+}
+
+.try{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 30px;
+	align-items: center;
+	width: 60%;
+	margin: 0px auto;
+	background-color: #F3F2F2;
 }
