@@ -88,16 +88,16 @@ input{
 	top: 30px; left: 1300px;
 }
 
-.login {
-	color: #FFFFFF;
-	position: absolute;
-	top: 30px; left: 1140px;
-}
-
 .blog {
 	color: #FFFFFF;
 	position: absolute;
 	top: 30px; left: 1220px;
+}
+
+.login {
+	color: #FFFFFF;
+	position: absolute;
+	top: 30px; left: 1140px;
 }
 
 .container{
