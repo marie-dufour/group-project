@@ -14,11 +14,11 @@ li{
 	float: left;
 	}
 
-.li-nav {
+li a {
  	display: block;
   	color: #D3A877;
  	text-align: center;
-  	padding: 14px 0px;
+  	padding: 14px 16px;
   	text-decoration: none;
 }
 
