@@ -1,7 +1,9 @@
 /* cities-pictures */
 
-.cities-pictures {
+.cities-pictures:hover {
 	width: 340px;
 	height: 274px;
 	padding: 5px;
+	-webkit-transform: scaleX(-1);
+  	transform: scaleX(-1);
 }
