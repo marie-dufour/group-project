@@ -1,0 +1,22 @@
+/* list-navigation */
+
+.list-navigation{
+	list-style: none;
+	padding-left: 0px;
+	vertical-align: middle;
+
+}
+
+.list-navigation li{
+	display: inline;
+	vertical-align: middle;
+	padding: 0px;
+}
+
+::placeholder{
+	color: #D3A877;
+    font-family: 'Brawler',serif;
+    font-size: 14px;;
+    padding: 0px;
+}
+
