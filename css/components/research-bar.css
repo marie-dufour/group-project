@@ -26,3 +26,11 @@ li a {
 		position: absolute;
 		left: 400px;
 }
+
+.li-nav {
+ 	display: block;
+  	color: #D3A877;
+ 	text-align: center;
+  	padding: 14px 0px;
+  	text-decoration: none;
+}
