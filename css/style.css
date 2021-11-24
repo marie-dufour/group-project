@@ -1,25 +1,30 @@
 /*Colors and fonts*/
 
+@import url("components/bar.css");
+@import url("components/basket-picture.css");
 @import url("components/btn-beige.css");
 @import url("components/btn-book.css");
 @import url("components/btn-gris.css");
-@import url("components/card-white.css");
+@import url("components/btn-pay.css");
+@import url("components/card-blog.css");
 @import url("components/card-formula.css");
+@import url("components/card-share.css");
+@import url("components/card-white.css");
+@import url("components/cards-basket.css");
 @import url("components/cities-pictures.css");
+@import url("components/connect.css");
 @import url("components/formula-picture.css");
 @import url("components/heading-bar.css");
 @import url("components/link-rome.css");
+@import url("components/list-horizontal-profile.css");
 @import url("components/list-horizontal.css");
 @import url("components/list-inline.css");
+@import url("components/list-navigation.css");
 @import url("components/logo-circle.css");
+@import url("components/pictures-blog.css");
 @import url("components/polaroid.css");
 @import url("components/profiles-pictures.css");
 @import url("components/research-bar.css");
-@import url("components/card-blog.css");
-@import url("components/pictures-blog.css");
-@import url("components/list-horizontal-profile.css");
-@import url("components/bar.css");
-@import url("components/list-navigation.css");
 
 
 body {
@@ -74,6 +79,15 @@ h5 {
     margin: 60px;
 }
 
+h6 {
+    color: #2F7B8B;
+    font-family: 'Brawler';
+    font-weight: lighter;
+    font-size: 28px;
+    padding: 0px;
+    margin: 20px;
+}
+
 a{
 	text-decoration: none;
 	color: #D3A877;
@@ -99,6 +113,10 @@ input{
 	color: #FFFFFF;
 	position: absolute;
 	top: 30px; left: 1140px;
+}
+
+.no-account {
+	color: #2F7B8B;
 }
 
 .container{

@@ -19,7 +19,6 @@
 			<div class="heading-bar">
 			
 			<img src="images/logo-circle.png" alt="My Travel Guide logo" id="logo-circle" width="100px">
-			<a href="login.html" class="login">Log In</a>
 			<a href="blog.html" class="blog">Blog</a>
 			<a href="about-us.html" class="aboutus">About us</a>
 			<h1>What's your next destination?</h1>
@@ -80,7 +79,35 @@
 		</ul>	
 	</div>
 
-	
+
+	<a class="open-button" onclick="openForm()">Log In</a>
+
+	<div class="form-popup" id="myForm">
+	  <form action="/action_page.php" class="form-container">
+	    <h3>Connect to your account</h3>
+
+	    <label for="email"><b>Email</b></label>
+	    <input type="text" placeholder="Your email" name="email" required>
+
+	    <label for="psw"><b>Password</b></label>
+	    <input type="password" placeholder="Your password" name="psw" required>
+	    <p></p>
+
+	    <button type="button" class="btn" onclick="closeForm()">Log in</button>
+	    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+	  </form>
+	</div>
+
+
+	<script>
+	function openForm() {
+	  document.getElementById("myForm").style.display = "block";
+	}
+
+	function closeForm() {
+	  document.getElementById("myForm").style.display = "none";
+	}
+	</script>
 
 </body>
 

@@ -1,0 +1,10 @@
+/* basket-picture */
+
+.basket-picture {
+	width: 380px;
+	height: 280px;
+	padding: 10px;
+	left: 170px;
+	top: 390px;
+	position: absolute;
+}
